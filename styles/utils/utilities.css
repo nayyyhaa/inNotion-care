@@ -1,0 +1,53 @@
+.navbar {
+  position: relative;
+  width: 100%;
+}
+
+.nav-items {
+  z-index: 1;
+}
+
+.nav-icon-btn:hover > * {
+  color: var(--COLOR-COMPLEMENTARY-LIGHT);
+}
+
+.nav-icon-btn:last-child {
+  margin-right: 3rem;
+}
+
+.rating-input {
+  display: none;
+}
+
+.rating-input[disabled] {
+  pointer-events: none;
+}
+
+.card-img {
+  height: 40vh;
+}
+
+.secondary-outline-btn {
+  background: var(--COLOR-COMPLEMENTARY-LIGHT);
+  border: 0.2rem solid var(--COLOR-PRIMARY);
+  color: var(--COLOR-PRIMARY);
+}
+
+.badge {
+  height: 2rem;
+  width: 2rem;
+  bottom: 70%;
+  left: 65%;
+}
+
+@media screen and (max-width: 950px) {
+  .searchfield {
+    top: 10vh;
+    box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+  }
+
+  .hero-introduction {
+    padding-left: 5rem;
+  }
+}
+

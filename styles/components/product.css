@@ -1,0 +1,46 @@
+.product-item {
+  position: relative;
+  color: var(--COLOR-GREY-DARK);
+}
+
+.product-media {
+  overflow: hidden;
+}
+
+.product-action {
+  position: relative;
+  margin-top: -1.8rem;
+  margin-left: 1rem;
+}
+
+.product-img {
+  height: 60vh;
+  opacity: 0.85;
+  transition: all 0.3s ease-in-out;
+}
+
+.product-img:hover,
+.product-img:focus {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.product-btn i {
+  transition: all 0.3s ease-in-out;
+}
+
+.product-btn:hover i {
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 750px) {
+  .product-action {
+    position: absolute;
+    top: 25rem;
+    width: 100%;
+  }
+
+  .products-title {
+    color: white;
+  }
+}

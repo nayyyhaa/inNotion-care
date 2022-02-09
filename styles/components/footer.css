@@ -1,0 +1,33 @@
+#connect {
+  min-height: 30vh;
+  color: white;
+  background: var(--COLOR-PRIMARY-XXDARK);
+  text-align: center;
+}
+
+.contact-content {
+  justify-content: space-between;
+}
+
+.footer-item {
+  align-items: start;
+}
+
+.footer-item a:hover {
+  color: var(--COLOR-COMPLEMENTARY-LIGHT);
+}
+
+@media screen and (max-width: 950px) {
+  .contact-content {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .footer-item {
+    align-items: center;
+  }
+
+  .product-container {
+    margin-bottom: 0;
+  }
+}
