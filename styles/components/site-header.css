@@ -55,3 +55,17 @@
     height: 40vh;
   }
 }
+
+@media screen and (max-width: 370px) {
+  #logo {
+    margin-right: 0.5rem;
+  }
+
+  .navbar {
+    justify-content: center;
+  }
+
+  .nav-icon-btns {
+    margin-right: 0.5rem;
+  }
+}

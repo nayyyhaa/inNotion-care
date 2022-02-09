@@ -11,10 +11,10 @@
     <title>inNotion Care | Home</title>
   </head>
   <body>
+    <div class="header-announcement pink-bg centered-text p-1">
+      <p class="centered-text">FREE SHIPPING ON ORDERS ABOVE 1999₹.</p>
+    </div>
     <header class="header fixed-header full-wd">
-      <div class="header-announcement pink-bg grid-ctr p-1">
-        <p class="centered-text">FREE SHIPPING ON ORDERS ABOVE 1999₹.</p>
-      </div>
       <nav class="navbar row-flex p-05">
         <a class="m-l-3" href="/"
           ><h3 id="logo">in.notion <span class="text-shd">Care</span></h3></a
@@ -28,30 +28,32 @@
           <span class="search-icon p-05"><i class="fa fa-search" aria-hidden="true"></i></span>
           <input type="search" class="input search-nav reset-ip p-05" placeholder="Search here" id="search-text" />
         </label>
-        <ul class="row-flex no-bullet">
-          <li class="nav-icon-btn icon-btn rd-bdr grid-ctr wt-text">
-            <a class="badge-wrapper grid-ctr">
-              <i class="fa fa-heart rating-icon" aria-hidden="true"></i>
-              <span class="badge wt-text grid-ctr red-content">9</span>
-              <span class="nav-icon-text h6 cursor wt-text">Wishlist</span>
-            </a>
-          </li>
-          <li class="nav-icon-btn icon-btn rd-bdr grid-ctr wt-text">
-            <a class="badge-wrapper grid-ctr">
-              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-              <span class="badge wt-text grid-ctr red-content">1</span>
-              <span class="nav-icon-text h6 cursor wt-text">Cart</span>
-            </a>
-          </li>
-          <li class="nav-icon-btn icon-btn rd-bdr grid-ctr  wt-text">
-            <a class="grid-ctr">
-              <i class="fa fa-user" aria-hidden="true"></i>
-              <span class="nav-icon-text h6 cursor wt-text">Profile</span>
-            </a>
-          </li>
-        </ul>
-        <div class="hamburger icon-toggle icon-btn rd-bdr grid-ctr wt-text m-r-1">
-          <i class="fa fa-bars" aria-hidden="true"></i>
+        <div class="nav-icon-btns row-flex no-wrap">
+          <ul class="row-flex no-bullet">
+            <li class="nav-icon-btn icon-btn rd-bdr grid-ctr wt-text m-r-2">
+              <a class="badge-wrapper grid-ctr">
+                <i class="fa fa-heart rating-icon" aria-hidden="true"></i>
+                <span class="badge wt-text grid-ctr red-content">9</span>
+                <span class="nav-icon-text h6 cursor wt-text">Wishlist</span>
+              </a>
+            </li>
+            <li class="nav-icon-btn icon-btn rd-bdr grid-ctr wt-text m-r-2">
+              <a class="badge-wrapper grid-ctr">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <span class="badge wt-text grid-ctr red-content">1</span>
+                <span class="nav-icon-text h6 cursor wt-text">Cart</span>
+              </a>
+            </li>
+            <li class="nav-icon-btn icon-btn rd-bdr grid-ctr  wt-text">
+              <a class="grid-ctr">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <span class="nav-icon-text h6 cursor wt-text">Profile</span>
+              </a>
+            </li>
+          </ul>
+          <div class="hamburger icon-toggle icon-btn rd-bdr grid-ctr wt-text m-r-1">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
         </div>
       </nav>
     </header>
@@ -365,7 +367,7 @@
             <p>SAVE 15% ON YOUR FIRST PURCHASE</p>
             <div class="email-form field row-flex m-1">
               <label class="row-flex no-wrap" for="email">
-                <input type="email" class="input p-07" placeholder="Email us" name="_replyto" id="email" required="" />
+                <input type="email" class="input email-input p-07" placeholder="Email us" name="_replyto" id="email" required="" />
                 <button class="btn secondary-outline-btn" type="submit">Submit</button>
               </label>
             </div>
