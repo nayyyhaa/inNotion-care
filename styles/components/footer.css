@@ -46,4 +46,8 @@
   .contact-action {
     width: 100%;
   }
+
+  .email-form {
+    align-self: start;
+  }
 }
