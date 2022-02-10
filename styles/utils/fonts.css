@@ -23,3 +23,15 @@
   font-size: inherit;
   color: var(--COLOR-COMPLEMENTARY);
 }
+
+.input,
+.btn,
+select,
+textarea,
+option {
+  font-size: 1.6rem;
+}
+
+.sub-heading {
+  color: rgb(114 114 114);
+}
