@@ -30,6 +30,10 @@
   color: var(--COLOR-COMPLEMENTARY-LIGHT);
 }
 
+.email-form {
+  align-self: start;
+}
+
 @media screen and (max-width: 750px) {
   .connect {
     padding: 3rem 2rem;
@@ -45,9 +49,5 @@
 
   .contact-action {
     width: 100%;
-  }
-
-  .email-form {
-    align-self: start;
   }
 }
