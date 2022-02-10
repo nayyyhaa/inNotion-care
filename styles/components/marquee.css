@@ -48,9 +48,9 @@
 /* Media Queries */
 @media (max-width: 768px) {
   .marquee {
-    padding: 20px 0;
+    padding: 2rem 0;
   }
   .marquee-item {
-    padding: 0 20px;
+    padding: 0 3rem;
   }
 }

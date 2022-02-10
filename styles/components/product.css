@@ -20,7 +20,7 @@
 }
 
 .product-img {
-  height: 60vh;
+  height: 45vh;
   opacity: 0.85;
   transition: all 0.3s ease-in-out;
 }
@@ -28,7 +28,7 @@
 .product-img:hover,
 .product-img:focus {
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
 .product-btn i {
@@ -39,17 +39,3 @@
   margin-left: 1rem;
 }
 
-@media screen and (max-width: 750px) {
-  .product-action {
-    position: absolute;
-    top: 25rem;
-  }
-
-  .product-btn {
-    width: 100%;
-  }
-
-  .products-title {
-    color: white;
-  }
-}
