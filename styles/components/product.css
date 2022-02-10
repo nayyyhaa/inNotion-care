@@ -37,7 +37,10 @@
   .product-action {
     position: absolute;
     top: 25rem;
-    width: 50%;
+  }
+
+  .product-btn {
+    width: 100%;
   }
 
   .products-title {

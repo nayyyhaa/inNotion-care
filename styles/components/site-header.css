@@ -22,6 +22,12 @@
   background: var(--COLOR-PRIMARY-XXLIGHT);
 }
 
+@media screen and (max-width: 950px) {
+  .hero-introduction {
+    padding-left: 5rem;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .nav-icon-btn:last-child {
     margin-right: 0;

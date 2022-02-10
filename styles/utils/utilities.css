@@ -40,14 +40,13 @@
   left: 65%;
 }
 
+.search {
+  padding: 1rem 0.5rem;
+}
+
 @media screen and (max-width: 950px) {
   .searchfield {
     top: 10vh;
     box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
   }
-
-  .hero-introduction {
-    padding-left: 5rem;
-  }
 }
-
