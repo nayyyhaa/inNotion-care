@@ -63,6 +63,10 @@
   transform: translate(-50%, -50%);
 }
 
+.clear-all {
+  color: var(--COLOR-PRIMARY-DARK)
+}
+
 /*media queries*/
 
 @media screen and (max-width: 1150px) {
@@ -101,7 +105,7 @@
 
   .filter-bar {
     position: fixed;
-    bottom: 0;
+    bottom: -0.25rem;
     display: flex;
     justify-content: space-evenly;
     height: 5vh;
