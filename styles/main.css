@@ -8,7 +8,9 @@
 @import url("utils/utilities.css");
 
 /* COMPONENTS */
+@import url("components/filter.css");
 @import url("components/footer.css");
 @import url("components/marquee.css");
 @import url("components/product.css");
+@import url("components/all-products.css");
 @import url("components/site-header.css");

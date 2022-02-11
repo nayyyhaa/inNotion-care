@@ -1,0 +1,115 @@
+.products-content {
+  width: 85%;
+}
+
+.products-section {
+  justify-items: center;
+  grid-gap: 1rem;
+}
+
+.products-content-header {
+  justify-content: space-between;
+}
+
+.categories,
+.filter-item {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.side-bar-title {
+  justify-content: space-between;
+}
+
+.filter-list {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.side-bar {
+  position: sticky;
+  min-height: 100vh;
+  width: 20%;
+  top: 7vh;
+  overflow: hidden;
+}
+
+.sidebar-items {
+  overflow-y: scroll;
+  height: 80vh;
+  overflow-x: hidden;
+}
+
+.price-range {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.filter-bar {
+  display: none;
+}
+
+.products-banner {
+  position: relative;
+}
+
+.products-banner-text {
+  position: absolute;
+  font-family: "Great Vibes", cursive;
+  color: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clear-all {
+  color: var(--COLOR-PRIMARY-DARK)
+}
+
+/*media queries*/
+
+@media screen and (max-width: 1150px) {
+  .side-bar {
+    width: 25%;
+  }
+
+  .products-content {
+    width: 100%;
+    padding: 5rem 2rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .side-bar {
+    display: none;
+    width: 100%;
+    transform: translateY(100%);
+  }
+
+  .side-bar.show-filter {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: 10;
+    opacity: 1;
+    top: 0;
+    transform: translateY(0%);
+  }
+
+  .products-content {
+    width: 100%;
+    padding: 5rem 1rem;
+  }
+
+  .filter-bar {
+    position: fixed;
+    bottom: -0.25rem;
+    display: flex;
+    justify-content: space-evenly;
+    height: 5vh;
+    background: var(--COLOR-PRIMARY-XLIGHT);
+    z-index: 10;
+  }
+}
