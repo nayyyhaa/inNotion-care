@@ -1,6 +1,7 @@
 /*----------NAV BAR------------*/
 
 let filterBtn = document.querySelector(".filter-btn");
+let sidebarCloseBtn = document.querySelector(".sidebar-close");
 let clearBtn = document.querySelectorAll(".clear-all");
 let sideBar = document.querySelector(".side-bar");
 
@@ -17,3 +18,4 @@ const closeFilterBar = () => {
 
 filterBtn.addEventListener("click", toogleFilterBar);
 clearBtn.forEach((el) => el.addEventListener("click", closeFilterBar));
+sidebarCloseBtn.addEventListener("click", closeFilterBar);

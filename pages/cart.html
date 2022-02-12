@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://innotion-ui-library.netlify.app/in-notion.css" />
+    <link rel="stylesheet" href="../global.css" />
+    <script src="../scripts/app.js" defer></script>
+    <title>inNotion Care | Cart</title>
+  </head>
+  <body>
+    <header class="header fixed-header">
+      <nav class="navbar row-flex w-95p m-auto p-05">
+        <a class="m-l-3" href="/"
+          ><h3 id="logo">in.notion <span class="text-shd">Care</span></h3></a
+        >
+        <ul class="nav-items row-flex w-40p no-bullet">
+          <li class="btn nav-link-btn cursor h3"><a href="products.html">Shop</a></li>
+          <li class="btn nav-link-btn cursor h3"><a href="products.html">Care products</a></li>
+          <li class="btn nav-link-btn cursor h3"><a>About</a></li>
+        </ul>
+        <label class="field searchfield w-20p" for="search-text">
+          <span class="search-icon cursor p-h-1"><i class="fa fa-search" aria-hidden="true"></i></span>
+          <input type="search" class="input search-nav reset-ip p-05" placeholder="Search here" id="search-text" />
+        </label>
+        <div class="nav-icon-btns row-flex no-wrap">
+          <ul class="row-flex no-bullet">
+            <li class="nav-icon-btn icon-btn rd-bdr grid-ctr wt-text m-r-3">
+              <a href="wishlist.html" class="badge-wrapper grid-ctr">
+                <i class="fa fa-heart rating-icon" aria-hidden="true"></i>
+                <span class="badge wt-text grid-ctr red-content">9</span>
+                <span class="nav-icon-text h6 cursor wt-text">Wishlist</span>
+              </a>
+            </li>
+            <li class="nav-icon-btn icon-btn rd-bdr grid-ctr wt-text m-r-3">
+              <a class="badge-wrapper grid-ctr">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <span class="badge wt-text grid-ctr red-content">1</span>
+                <span class="nav-icon-text h6 cursor wt-text">Cart</span>
+              </a>
+            </li>
+            <li class="nav-icon-btn icon-btn rd-bdr grid-ctr wt-text">
+              <a class="grid-ctr">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <span class="nav-icon-text h6 cursor wt-text">Profile</span>
+              </a>
+            </li>
+          </ul>
+          <div class="hamburger icon-toggle icon-btn rd-bdr grid-ctr wt-text m-r-1">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="cart-layout row-flex flex-start no-wrap">
+      <main class="cart-container products-content p-h-5 p-v-2 w-50p">
+        <h2 class="centered-text p-v-2 p-h-4">Your Cart <span class="sub-heading">(1 item)</span></h2>
+        <div class="line-decoration"></div>
+        <section class="col-flex">
+          <div class="card hz-card cart-card left-text row-flex text-wrap w-80p h-20rm m-v-2">
+            <img class="cart-card-img h-20rm w-35p" src="../assets/inscence.jpg" alt="inscence" />
+            <div class="card-header-text cart-card-header h-25rm col-flex flex-start no-wrap">
+              <h2 class="card-title h3">Blossom inscense sticks</h2>
+              <small class="card-text sub-heading-light m-b-2">Sold by: Nene Stores</small>
+              <div class="quantity-selector row-flex no-wrap m-b-2">
+                <i class="fa fa-trash-o light-font m-r-2" aria-hidden="true"></i>
+                <i class="fa fa-minus light-font m-r-2" aria-hidden="true"></i>
+                <p class="quantity m-r-2 h3">2</p>
+                <i class="fa fa-plus light-font" aria-hidden="true"></i>
+              </div>
+              <div class="card-footer row-flex full-wd">
+                <p class="card-price h3 colored-text m-r-2 m-b-1">
+                  249₹ <del class="sub-heading-light light-font">499₹ </del>
+                  <span class="green-text light-font"> (50% off)</span>
+                </p>
+                <button class="btn primary-btn p-1 m-r-1">
+                  <i class="fa fa-heart" aria-hidden="true"></i><span class="p-l-1">Wishlist</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <div class="side-bar cart-sidebar box-shd p-v-5">
+        <ul class="no-bullet col-flex flex-start no-wrap p-h-2 m-b-3">
+          <li class="cart-list p-h-2 m-v-2">PRICE DETAILS</li>
+          <li class="cart-item full-wd row-flex no-wrap p-h-2 m-v-05">
+            <p class="sub-heading">Subtotal</p>
+            <p>499 ₹</p>
+          </li>
+          <li class="cart-item full-wd row-flex no-wrap p-h-2 m-v-05">
+            <p class="sub-heading">Discount</p>
+            <p>(-) 250 ₹</p>
+          </li>
+          <li class="cart-item full-wd row-flex no-wrap p-h-2 m-v-05">
+            <p class="sub-heading">Shipping</p>
+            <p>(+) 50 ₹</p>
+          </li>
+          <li class="cart-item full-wd row-flex no-wrap p-h-2 m-v-05">
+            <label class="field promofield full-wd" for="promo-text">
+              <span class="search-icon cursor p-h-1"><i class="fa fa-tag" aria-hidden="true"></i></span>
+              <input type="text" class="input search-nav full-wd p-05" placeholder="Promo Code" id="promo-text" />
+            </label>
+          </li>
+          <li class="line-decoration"></li>
+          <li class="cart-item full-wd row-flex no-wrap p-h-2 m-v-1">
+            <p class="h3">YOU PAY</p>
+            <p class="h3">299 ₹</p>
+          </li>
+          <li class="cart-list full-wd p-h-2 m-v-1">
+            <button class="btn primary-btn m-r-1 full-wd">
+              <span class="p-l-1">PLACE ORDER</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <footer class="connect footer p-3 col-flex">
+      <div class="contact-content row-flex w-90p m-b-1">
+        <div class="footer-item col-flex m-2">
+          <h3 class="m-b-3">SHOP</h3>
+          <ul class="footer-item-links left-text no-bullet">
+            <li class="m-b-1"><a class="grey-text cursor">Body Essentials</a></li>
+            <li class="m-b-1"><a class="grey-text cursor">Vegan Products</a></li>
+            <li class="m-b-1"><a class="grey-text cursor">Room Decors</a></li>
+            <li class="m-b-1"><a class="grey-text cursor">Mists</a></li>
+          </ul>
+        </div>
+        <div class="footer-item col-flex m-2">
+          <h3 class="m-b-3">INFORMATION</h3>
+          <ul class="footer-item-links left-text no-bullet">
+            <li class="m-b-1"><a class="grey-text cursor">Contact</a></li>
+            <li class="m-b-1"><a class="grey-text cursor">Shipping</a></li>
+            <li class="m-b-1"><a class="grey-text cursor">Account</a></li>
+            <li class="m-b-1"><a class="grey-text cursor">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="contact-action col-flex m-2">
+          <form
+            action="https://formspree.io/f/mknkoydw"
+            class="email-form m-b-1"
+            method="POST"
+            target="_blank"
+            class="contact-form"
+          >
+            <h3 class="left-text m-b-3">JOIN THE CULT</h3>
+            <p class="grey-text left-text m-b-1">SAVE 15% ON YOUR FIRST PURCHASE</p>
+            <div class="field row-flex flex-start m-v-1">
+              <label class="row-flex no-wrap" for="email">
+                <input
+                  type="email"
+                  class="input email-input p-07"
+                  placeholder="Email us"
+                  name="_replyto"
+                  id="email"
+                  required=""
+                />
+                <button class="btn secondary-outline-btn" type="submit">Submit</button>
+              </label>
+            </div>
+          </form>
+          <div class="contact-socials left-text full-wd m-v-1">
+            <a class="icon-btn footer-icon grey-text p-1" href="mailto:nehaguptang.ng@gmail.com">
+              <i class="fa fa-envelope" title="envelope" alt="envelope"></i>
+            </a>
+            <a class="icon-btn footer-icon grey-text p-1" href="https://www.github.com/nayyyhaa">
+              <i class="fa fa-github" title="github" alt="github"></i>
+            </a>
+            <a class="icon-btn footer-icon grey-text p-1" href="https://www.twitter.com/nayyyhaa">
+              <i class="fa fa-twitter" title="twitter" alt="twitter"></i>
+            </a>
+            <a class="icon-btn footer-icon grey-text p-1" href="https://www.instagram.com/nehacode">
+              <i class="fa fa-instagram" title="instagram" alt="instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="m-t-3">Made with ❤️ by Neha Gupta</p>
+    </footer>
+  </body>
+</html>
