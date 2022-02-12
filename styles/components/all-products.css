@@ -29,7 +29,6 @@
 .side-bar {
   position: sticky;
   min-height: 100vh;
-  width: 20%;
   top: 7vh;
   overflow: hidden;
 }
@@ -64,13 +63,21 @@
 }
 
 .clear-all {
-  color: var(--COLOR-PRIMARY-DARK)
+  color: var(--COLOR-PRIMARY-DARK);
 }
 
 /*media queries*/
 
 @media screen and (max-width: 1150px) {
-  .side-bar {
+  .products-section {
+    grid-gap: 0.2rem;
+  }
+
+  .card {
+    margin: 0.2rem;
+  }
+
+  .product-sidebar {
     width: 25%;
   }
 
@@ -81,13 +88,13 @@
 }
 
 @media screen and (max-width: 850px) {
-  .side-bar {
+  .product-sidebar {
     display: none;
     width: 100%;
     transform: translateY(100%);
   }
 
-  .side-bar.show-filter {
+  .product-sidebar.show-filter {
     position: fixed;
     display: flex;
     flex-direction: column;

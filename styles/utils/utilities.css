@@ -68,6 +68,19 @@
   margin: 1rem 0;
 }
 
+.heart-btn {
+  position: absolute;
+  left: 85%;
+  top: 2%;
+  color: var(--COLOR-COMPLEMENTARY-DARK);
+  background: transparent;
+}
+
+.heart-btn:hover {
+  color: var(--RED);
+  background: var(--COLOR-GREY-TRANS)
+}
+
 @media screen and (max-width: 400px) {
   .card-header-text {
     padding: 2rem 0 0 2rem;
