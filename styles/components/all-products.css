@@ -110,6 +110,11 @@
     padding: 5rem 1rem;
   }
 
+  .products-banner-text {
+    transform: translate(-50%, -20%);
+    font-size: 4rem;
+  }
+
   .filter-bar {
     position: fixed;
     bottom: -0.25rem;
@@ -118,5 +123,11 @@
     height: 5vh;
     background: var(--COLOR-PRIMARY-XLIGHT);
     z-index: 10;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .products-banner-text {
+    font-size: 3rem;
   }
 }

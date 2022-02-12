@@ -65,7 +65,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .cart-card-header {
     padding: 1rem 0 0 1rem;
   }
@@ -73,5 +73,21 @@
   .cart-card-img,
   .cart-card {
     height: 22rem;
+  }
+
+  .quantity-selector,
+  .card-text {
+    margin-bottom: 1rem;
+  }
+
+  .card-price {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 260px) {
+  .cart-card-img,
+  .cart-card {
+    height: 24rem;
   }
 }
