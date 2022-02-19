@@ -144,8 +144,7 @@
     height: 18vh;
   }
 
-  .card-header-text
-  .card-actions {
+  .card-header-text .card-actions {
     padding: 0.75rem;
   }
 
@@ -167,14 +166,20 @@
   .card-btns .primary-btn {
     width: 100%;
   }
+}
 
+@media screen and (max-width: 460px) {
+  .products-banner-text {
+    font-size: 3rem;
+  }
+  
   .card-rating-overlay {
-    bottom: 19rem;
+    bottom: 22rem;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .products-banner-text {
-    font-size: 3rem;
+@media screen and (max-width: 315px) {
+  .card-rating-overlay {
+    bottom: 27rem;
   }
 }
