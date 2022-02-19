@@ -24,74 +24,20 @@
 
 /*nav*/
 
-.navbar {
-  position: relative;
-  width: 98%;
-}
-
-.nav-link-btn a:hover,
-.nav-icon-btn:hover > * {
-  transition: all 0.2s ease;
-}
-
 .nav-items {
   z-index: 1;
 }
 
-.nav-icon-btn:hover > * {
-  color: var(--COLOR-COMPLEMENTARY-LIGHT);
-}
-
-.nav-icon-btn:last-child {
-  margin-right: 3rem;
-}
-
-.search-nav {
-  padding: 0.75rem 0.5rem;
-}
-
-.site-banner {
-  position: relative;
-}
-
-.banner-text {
-  font-family: "Great Vibes", cursive;
-  position: absolute;
-  color: white;
-}
-
 /*media queries*/
 
-@media screen and (max-width: 1150px) {
-  .nav-items {
-    width: 33%;
-  }
-}
 
 @media screen and (max-width: 950px) {
   .hero-introduction {
     padding-left: 5rem;
   }
-
-  .navbar {
-    width: 100%;
-  }
-  .searchfield {
-    width: 100%;
-    top: 10vh;
-    box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
-  }
-
-  .search-nav {
-    padding: 1rem 0.5rem;
-  }
 }
 
 @media screen and (max-width: 750px) {
-  .nav-icon-btn:last-child {
-    margin-right: 0;
-  }
-
   .site-header {
     flex-wrap: wrap-reverse;
     align-content: start;
@@ -121,26 +67,8 @@
   }
 }
 
-@media screen and (max-width: 700px) {
-  .nav-items {
-    width: 100%;
-  }
-
-  .nav-icon-btn {
-    margin-right: 1rem;
-  }
-}
-
 @media screen and (max-width: 370px) {
   #logo {
-    margin-right: 0.5rem;
-  }
-
-  .navbar {
-    justify-content: center;
-  }
-
-  .nav-icon-btns {
     margin-right: 0.5rem;
   }
 }

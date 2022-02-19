@@ -1,14 +1,10 @@
 /* UTILITIES */
-@import url("utils/design.css");
 @import url("utils/fonts.css");
-@import url("utils/gutter.css");
-@import url("utils/grid.css");
 @import url("utils/utilities.css");
 
 /* COMPONENTS */
 @import url("components/all-products.css");
 @import url("components/cart.css");
-@import url("components/footer.css");
 @import url("components/login.css");
 @import url("components/marquee.css");
 @import url("components/product.css");
