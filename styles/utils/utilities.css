@@ -2,49 +2,8 @@
   font-size: unset !important;
 }
 
-.rating-input {
-  display: none;
-}
-
-.rating-input[disabled] {
-  pointer-events: none;
-}
-
-.rating-badge {
-  background: var(--COLOR-PRIMARY-XXLIGHT);
-}
-
-.card {
-  border: 1px solid var(--COLOR-GREY);
-}
-
-.card:hover {
-  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 14%), 0 0 18px 0 rgb(0 0 0 / 12%);
-  transition: all 0.3s ease;
-}
-
 .card-img {
   height: 30vh;
-}
-
-.card-text-overlay {
-  top: unset;
-  width: unset;
-  bottom: 20rem;
-}
-
-.card-header-text {
-  padding: 2rem 0 0 2rem;
-}
-
-.card-actions {
-  padding: 2rem;
-}
-
-.secondary-outline-btn {
-  background: var(--COLOR-COMPLEMENTARY-LIGHT);
-  border: 0.2rem solid var(--COLOR-PRIMARY);
-  color: var(--COLOR-PRIMARY);
 }
 
 .badge {
@@ -54,19 +13,10 @@
   left: 65%;
 }
 
-.radio-input,
-.checkbox-input {
-  position: relative;
-  top: 0.15rem;
+.card-rating-overlay {
+  bottom: 20rem;
 }
 
-.line-decoration {
-  height: 0.2rem;
-  width: 100%;
-  background: var(--COLOR-GREY);
-  margin: auto;
-  margin: 1rem 0;
-}
 
 .heart-btn {
   position: absolute;
@@ -78,11 +28,9 @@
 
 .heart-btn:hover {
   color: var(--RED);
-  background: var(--COLOR-GREY-TRANS)
+  background: var(--COLOR-GREY-TRANS);
 }
 
-@media screen and (max-width: 400px) {
-  .card-header-text {
-    padding: 2rem 0 0 2rem;
-  }
+.flex-1 {
+  flex: 1;
 }
